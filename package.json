@@ -1,0 +1,29 @@
+{
+  "name": "minuseligendi",
+  "version": "1.0.0",
+  "description": "TypeScript custom transformer which enumerates members of the union of string literal types",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KellenBode/minuseligendi.git"
+  },
+  "keywords": [
+    "TypeScript"
+  ],
+  "author": "HillardHoeger",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "transformer.js",
+    "transformer.ts"
+  ],
+  "devDependencies": {
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.12.12",
+    "mocha": "^6.2.2",
+    "typescript": "^5.0.4"
+  },
+  "peerDependencies": {
+    "typescript": ">=2.4.1"
+  }
+}
